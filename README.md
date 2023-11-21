@@ -13,9 +13,6 @@
 
 The theme was originally created by [Joses W. Ho](https://github.com/josesho) and [Jae Hee Lee](https://github.com/dschaehi) in this [gist](https://gist.github.com/dschaehi/ff6d30e6779a683053a1f078af178cdb).
 
-## Screenshot
-
-<img width="960" alt="Screenshot" src="https://github.com/AllanChain/jupyterlab-theme-solarized-dark/assets/36528777/de6dd210-d92b-4015-9da9-92dd07a4a9a9">
 
 ## Requirements
 
