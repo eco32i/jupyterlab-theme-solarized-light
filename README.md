@@ -1,4 +1,4 @@
-# JupyterLab Theme Solarized Dark
+# JupyterLab Theme Solarized Light
 
 ![Github Actions Status](https://github.com/AllanChain/jupyterlab-theme-solarized-dark/workflows/Build/badge.svg)
 ![License](https://img.shields.io/github/license/AllanChain/jupyterlab-theme-solarized-dark.svg)
@@ -26,7 +26,7 @@ The theme was originally created by [Joses W. Ho](https://github.com/josesho) an
 To install the extension, execute:
 
 ```bash
-pip install jupyterlab_theme_solarized_dark
+pip install jupyterlab_theme_solarized_light
 ```
 
 ## Uninstall
@@ -34,10 +34,10 @@ pip install jupyterlab_theme_solarized_dark
 To remove the extension, execute:
 
 ```bash
-pip uninstall jupyterlab_theme_solarized_dark
+pip uninstall jupyterlab_theme_solarized_light
 ```
 
-Apply the theme by checking `Settings -> Jupyterlab Theme -> Jupyterlab Solarized Dark`
+Apply the theme by checking `Settings -> Jupyterlab Theme -> Jupyterlab Solarized Light`
 
 To enable theme scrollbars, in JupyterLab, either
 
@@ -56,7 +56,7 @@ The `jlpm` command is JupyterLab's pinned version of
 
 ```bash
 # Clone the repo to your local environment
-# Change directory to the jupyterlab_theme_solarized_dark directory
+# Change directory to the jupyterlab_theme_solarized_light directory
 # Install package in development mode
 pip install -e "."
 # Link your development version of the extension with JupyterLab
@@ -85,12 +85,12 @@ jupyter lab build --minimize=False
 ### Development uninstall
 
 ```bash
-pip uninstall jupyterlab_theme_solarized_dark
+pip uninstall jupyterlab_theme_solarized_light
 ```
 
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
-folder is located. Then you can remove the symlink named `jupyterlab-theme-solarized-dark` within that folder.
+folder is located. Then you can remove the symlink named `jupyterlab-theme-solarized-light` within that folder.
 
 ### Packaging the extension
 
