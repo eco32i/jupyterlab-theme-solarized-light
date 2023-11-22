@@ -3,7 +3,7 @@ requires = ["hatchling>=1.5.0", "jupyterlab>=4.0.0,<5", "hatch-nodejs-version"]
 build-backend = "hatchling.build"
 
 [project]
-name = "jupyterlab_theme_solarized_dark"
+name = "jupyterlab_theme_solarized_light"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.8"
@@ -32,23 +32,23 @@ source = "nodejs"
 fields = ["description", "authors", "urls"]
 
 [tool.hatch.build.targets.sdist]
-artifacts = ["jupyterlab_theme_solarized_dark/labextension"]
+artifacts = ["jupyterlab_theme_solarized_light/labextension"]
 exclude = [".github", "binder"]
 
 [tool.hatch.build.targets.wheel.shared-data]
-"jupyterlab_theme_solarized_dark/labextension" = "share/jupyter/labextensions/jupyterlab-theme-solarized-dark"
-"install.json" = "share/jupyter/labextensions/jupyterlab-theme-solarized-dark/install.json"
+"jupyterlab_theme_solarized_light/labextension" = "share/jupyter/labextensions/jupyterlab-theme-solarized-light"
+"install.json" = "share/jupyter/labextensions/jupyterlab-theme-solarized-light/install.json"
 
 [tool.hatch.build.hooks.version]
-path = "jupyterlab_theme_solarized_dark/_version.py"
+path = "jupyterlab_theme_solarized_light/_version.py"
 
 [tool.hatch.build.hooks.jupyter-builder]
 dependencies = ["hatch-jupyter-builder>=0.5"]
 build-function = "hatch_jupyter_builder.npm_builder"
 ensured-targets = [
-    "jupyterlab_theme_solarized_dark/labextension/package.json",
+    "jupyterlab_theme_solarized_light/labextension/package.json",
 ]
-skip-if-exists = ["jupyterlab_theme_solarized_dark/labextension/static/style.js"]
+skip-if-exists = ["jupyterlab_theme_solarized_light/labextension/static/style.js"]
 
 [tool.hatch.build.hooks.jupyter-builder.build-kwargs]
 build_cmd = "build:prod"
@@ -58,7 +58,7 @@ npm = ["jlpm"]
 build_cmd = "install:extension"
 npm = ["jlpm"]
 source_dir = "src"
-build_dir = "jupyterlab_theme_solarized_dark/labextension"
+build_dir = "jupyterlab_theme_solarized_light/labextension"
 
 [tool.jupyter-releaser.options]
 version_cmd = "hatch version"

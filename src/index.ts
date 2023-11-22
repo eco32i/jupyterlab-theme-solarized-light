@@ -6,21 +6,21 @@ import {
 import { IThemeManager } from '@jupyterlab/apputils';
 
 /**
- * Initialization data for the jupyterlab-theme-solarized-dark extension.
+ * Initialization data for the jupyterlab-theme-solarized-light extension.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: 'jupyterlab-theme-solarized-dark:plugin',
+  id: 'jupyterlab-theme-solarized-light:plugin',
   description: 'Solarized dark theme for JupyterLab.',
   autoStart: true,
   requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
     console.log(
-      'JupyterLab extension jupyterlab-theme-solarized-dark is activated!'
+      'JupyterLab extension jupyterlab-theme-solarized-light is activated!'
     );
-    const style = 'jupyterlab-theme-solarized-dark/index.css';
+    const style = 'jupyterlab-theme-solarized-light/index.css';
 
     manager.register({
-      name: 'JupyterLab Solarized Dark',
+      name: 'JupyterLab Solarized Light',
       isLight: false,
       themeScrollbars: true,
       load: () => manager.loadCSS(style),
