@@ -88,8 +88,8 @@ all of MD as it is not optimized for dense, information rich UIs.
    * The following variables, specify the visual styling of borders in JupyterLab.
    */
   --jp-border-width: 1px;
-  --jp-border-color0: #17414c;
-  --jp-border-color1: #17414c;
+  --jp-border-color0: #abada9;
+  --jp-border-color1: #abada9;
   --jp-border-color2: #30525c;
   --jp-border-color3: #586e75;
   --jp-border-radius: 2px;
@@ -113,19 +113,19 @@ all of MD as it is not optimized for dense, information rich UIs.
    * Use these font colors against the corresponding main layout colors.
    * In a light theme, these go from dark to light.
    */
-  --jp-ui-font-color0: #93a1a1;
-  --jp-ui-font-color1: #93a1a1;
-  --jp-ui-font-color2: #657b83;
+  --jp-ui-font-color0: #586e75;
+  --jp-ui-font-color1: #657b83;
+  --jp-ui-font-color2: #839496;
   /* Disabled item */
-  --jp-ui-font-color3: #586e75;
+  --jp-ui-font-color3: #93a1a1;
   /*
    * Use these against the brand/accent/warn/error colors.
    * These will typically go from light to darker, in both a dark and light theme.
    */
-  --jp-ui-inverse-font-color0: #fdf6e3;
-  --jp-ui-inverse-font-color1: #073642;
-  --jp-ui-inverse-font-color2: #17414c;
-  --jp-ui-inverse-font-color3: #17414c;
+  --jp-ui-inverse-font-color0: #abada9;
+  --jp-ui-inverse-font-color1: #586e75;
+  --jp-ui-inverse-font-color2: #073642;
+  --jp-ui-inverse-font-color3: #002b36;
   /* Content Fonts
    *
    * Content font variables are used for typography of user generated content.
@@ -148,10 +148,10 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-content-heading-margin-top: 1.2em;
   --jp-content-heading-margin-bottom: 0.8em;
   --jp-content-heading-font-weight: 500;
-  --jp-content-font-color0: #eee8d5;
-  --jp-content-font-color1: #93a1a1;
-  --jp-content-font-color2: #839496;
-  --jp-content-font-color3: #657b83;
+  --jp-content-font-color0: #073642;
+  --jp-content-font-color1: #586e75;
+  --jp-content-font-color2: #657b83;
+  --jp-content-font-color3: #93a1a1;
   --jp-content-link-color: #268bd2;
   --jp-content-font-family: -apple-system, blinkmacsystemfont, "Segoe UI",
     helvetica, arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
@@ -164,7 +164,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-code-font-size: 13px;
   --jp-code-line-height: 1.3077; /* 17px for 13px base */
   --jp-code-padding: 5px; /* 5px for 13px base, codemirror highlighting needs integer px value */
-  --jp-code-font-family-default: menlo, consolas, "DejaVu Sans Mono", monospace;
+  --jp-code-font-family-default: Inconsolata, menlo, consolas, "DejaVu Sans Mono", monospace;
   --jp-code-font-family: var(--jp-code-font-family-default);
   /* This gives a magnification of about 125% in presentation mode over normal. */
   --jp-code-presentation-font-size: 16px;
@@ -177,59 +177,59 @@ all of MD as it is not optimized for dense, information rich UIs.
    * The following are the main layout colors use in JupyterLab. In a light
    * theme these would go from light to dark.
    */
-  --jp-layout-color0: #fdf6e3;
-  --jp-layout-color1: #829693;
+  --jp-layout-color0: #fefefe;
+  --jp-layout-color1: #f7f7f7;
   /* Note the separator of menu items uses --jp-layout-color2 */
-  --jp-layout-color2: #073642;
-  --jp-layout-color3: #17414c;
-  --jp-layout-color4: #657b83;
+  --jp-layout-color2: #f7f7f7;
+  --jp-layout-color3: #abada9;
+  --jp-layout-color4: #93a1a1;
   /* Inverse Layout
    *
    * The following are the inverse layout colors use in JupyterLab. In a light
    * theme these would go from dark to light.
    */
-  --jp-inverse-layout-color0: #fdf6e3;
-  --jp-inverse-layout-color1: #eee8d5;
-  --jp-inverse-layout-color2: #c1c5bb;
-  --jp-inverse-layout-color3: #93a1a1;
+  --jp-inverse-layout-color0: #002b36;
+  --jp-inverse-layout-color1: #073642;
+  --jp-inverse-layout-color2: #4d6c72;
+  --jp-inverse-layout-color3: #586e75;
   --jp-inverse-layout-color4: #839496;
   /* Brand/accent */
   --jp-brand-color0: #268bd2;
-  --jp-brand-color1: #207ab5;
-  --jp-brand-color2: #1a6998;
-  --jp-brand-color3: #13587c;
+  --jp-brand-color1: #4e9ed3;
+  --jp-brand-color2: #76b0d3;
+  --jp-brand-color3: #9ec3d4;
   --jp-accent-color0: #859900;
-  --jp-accent-color1: #6c850d;
-  --jp-accent-color2: #53711a;
-  --jp-accent-color3: #395e28;
+  --jp-accent-color1: #9aa92b;
+  --jp-accent-color2: #afb955;
+  --jp-accent-color3: #c4c880;
   /* State colors (warn, error, success, info) */
   --jp-warn-color0: #cb4b16;
-  --jp-warn-color1: #a4471f;
-  --jp-warn-color2: #7d4328;
-  --jp-warn-color3: #553e30;
+  --jp-warn-color1: #d26a3c;
+  --jp-warn-color2: #d98a62;
+  --jp-warn-color3: #e0a989;
   --jp-error-color0: #dc322f;
-  --jp-error-color1: #b13333;
-  --jp-error-color2: #873437;
-  --jp-error-color3: #5c343a;
+  --jp-error-color1: #e05650;
+  --jp-error-color2: #e37b71;
+  --jp-error-color3: #e79f93;
   --jp-success-color0: #859900;
-  --jp-success-color1: #6c850d;
-  --jp-success-color2: #53711a;
-  --jp-success-color3: #395e28;
+  --jp-success-color1: #9aa92b;
+  --jp-success-color2: #afb955;
+  --jp-success-color3: #c4c880;
   --jp-info-color0: #2aa198;
-  --jp-info-color1: #238c87;
-  --jp-info-color2: #1c7676;
-  --jp-info-color3: #156164;
+  --jp-info-color1: #51afa4;
+  --jp-info-color2: #78bdb0;
+  --jp-info-color3: #a0ccbd;
   /* Cell specific styles */
   --jp-cell-padding: 5px;
   --jp-cell-collapser-width: 8px;
   --jp-cell-collapser-min-height: 20px;
   --jp-cell-collapser-not-active-hover-opacity: 0.6;
-  --jp-cell-editor-border-color: #17414c;
-  --jp-cell-editor-background: var(--jp-layout-color1);
-  --jp-cell-editor-active-background: #b3bcb3;
+  --jp-cell-editor-border-color: #abada9;
+  --jp-cell-editor-background: #eee8d5;
+  --jp-cell-editor-active-background: #fdf6e3;
   --jp-cell-editor-active-border-color: var(--jp-input-active-border-color);
   --jp-cell-prompt-width: 64px;
-  --jp-cell-prompt-font-family: "Source Code Pro", monospace;
+  --jp-cell-prompt-font-family: "Inconsolata", monospace;
   --jp-cell-prompt-letter-spacing: 0;
   --jp-cell-prompt-opacity: 1;
   --jp-cell-prompt-not-active-opacity: 1;
@@ -239,8 +239,8 @@ all of MD as it is not optimized for dense, information rich UIs.
   /* Notebook specific styles */
   --jp-notebook-padding: 10px;
   /* --jp-notebook-select-background is not seen in jupyterlab codebase */
-  --jp-notebook-select-background: var(--jp-layout-color1);
-  --jp-notebook-multiselected-color: #268bd230;
+  --jp-notebook-select-background: #fdf6e3;
+  --jp-notebook-multiselected-color: #eee8d5;
   /* The scroll padding is calculated to fill enough space at the bottom of the
   notebook to show one single-line cell (with appropriate padding) at the top
   when the notebook is scrolled all the way to the bottom. We also subtract one
@@ -276,7 +276,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-input-hover-background: var(--jp-layout-color2);
   --jp-input-background: var(--jp-layout-color3);
   --jp-input-border-color: var(--jp-border-color2);
-  --jp-input-active-border-color: #51a0d5;
+  --jp-input-active-border-color: #1e78b3;
   --jp-input-active-box-shadow-color: rgba(19, 124, 189, 0.3);
   /* General editor styles */
   --jp-editor-selected-background: var(--jp-layout-color0);
@@ -286,27 +286,27 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-mirror-editor-keyword-color: #859900;
   --jp-mirror-editor-atom-color: #268bd2;
   --jp-mirror-editor-number-color: #d33682;
-  --jp-mirror-editor-def-color: #268bd2;
-  --jp-mirror-editor-variable-color: #839496;
-  --jp-mirror-editor-variable-2-color: #657b83;
-  --jp-mirror-editor-variable-3-color: #586e75;
-  --jp-mirror-editor-punctuation-color: #839496;
+  --jp-mirror-editor-def-color: #073642;
+  --jp-mirror-editor-variable-color: #657b83;
+  --jp-mirror-editor-variable-2-color: #268bd2;
+  --jp-mirror-editor-variable-3-color: #268bd2;
+  --jp-mirror-editor-punctuation-color: #586e75;
   --jp-mirror-editor-property-color: #268bd2;
   --jp-mirror-editor-operator-color: #839496;
-  --jp-mirror-editor-comment-color: #586e75;
-  --jp-mirror-editor-string-color: #2aa198;
-  --jp-mirror-editor-string-2-color: #cb4b16;
+  --jp-mirror-editor-comment-color: #93a1a1;
+  --jp-mirror-editor-string-color: #839496;
+  --jp-mirror-editor-string-2-color: #2aa198;
   --jp-mirror-editor-meta-color: #d33682;
-  --jp-mirror-editor-qualifier-color: #555;
+  --jp-mirror-editor-qualifier-color: #222;
   --jp-mirror-editor-builtin-color: #859900;
   --jp-mirror-editor-bracket-color: #997;
   --jp-mirror-editor-tag-color: #859900;
   --jp-mirror-editor-attribute-color: #268bd2;
-  --jp-mirror-editor-header-color: #3a94d2;
+  --jp-mirror-editor-header-color: #859900;
   --jp-mirror-editor-quote-color: #2aa198;
   --jp-mirror-editor-link-color: #268bd2;
   --jp-mirror-editor-error-color: #dc322f;
-  --jp-mirror-editor-hr-color: #999;
+  --jp-mirror-editor-hr-color: #222;
   /* User colors */
   --jp-collaborator-color1: #ad4a00;
   --jp-collaborator-color2: #7b6a00;
@@ -343,7 +343,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   );
   --jp-search-unselected-match-color: var(--jp-ui-inverse-font-color0);
   /* scrollbar related styles. Supports every browser except Edge. */
-  --jp-scrollbar-background-color: #fdf6e3;
+  --jp-scrollbar-background-color: #002b36;
   --jp-scrollbar-thumb-color: 21, 102, 103; /* need to specify thumb color as an RGB triplet */
   --jp-scrollbar-endpad: 3px; /* the minimum gap between the thumb and the ends of a scrollbar */
   /* hacks for setting the thumb shape. These do nothing in Firefox */

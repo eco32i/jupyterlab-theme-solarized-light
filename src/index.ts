@@ -10,7 +10,7 @@ import { IThemeManager } from '@jupyterlab/apputils';
  */
 const plugin: JupyterFrontEndPlugin<void> = {
   id: 'jupyterlab-theme-solarized-light:plugin',
-  description: 'Solarized dark theme for JupyterLab.',
+  description: 'Solarized light theme for JupyterLab.',
   autoStart: true,
   requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
