@@ -149,7 +149,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-content-heading-margin-bottom: 0.8em;
   --jp-content-heading-font-weight: 500;
   --jp-content-font-color0: #073642;
-  --jp-content-font-color1: #586e75;
+  --jp-content-font-color1: #859900;
   --jp-content-font-color2: #657b83;
   --jp-content-font-color3: #93a1a1;
   --jp-content-link-color: #268bd2;
@@ -164,7 +164,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-code-font-size: 13px;
   --jp-code-line-height: 1.3077; /* 17px for 13px base */
   --jp-code-padding: 5px; /* 5px for 13px base, codemirror highlighting needs integer px value */
-  --jp-code-font-family-default: Inconsolata, menlo, consolas, "DejaVu Sans Mono", monospace;
+  --jp-code-font-family-default: menlo, consolas, "DejaVu Sans Mono", monospace;
   --jp-code-font-family: var(--jp-code-font-family-default);
   /* This gives a magnification of about 125% in presentation mode over normal. */
   --jp-code-presentation-font-size: 16px;
@@ -238,6 +238,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-cell-outprompt-font-color: #cb4b16;
   /* Notebook specific styles */
   --jp-notebook-padding: 10px;
+  --jp-RenderedText-color: #586e75;
   /* --jp-notebook-select-background is not seen in jupyterlab codebase */
   --jp-notebook-select-background: #fdf6e3;
   --jp-notebook-multiselected-color: #eee8d5;
@@ -283,7 +284,8 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-editor-selected-focused-background: rgba(33, 150, 243, 0.24);
   --jp-editor-cursor-color: var(--jp-ui-font-color0);
   /* Code mirror specific styles */
-  --jp-mirror-editor-keyword-color: #859900;
+  --jp-mirror-editor-keyword-color: #586e75;
+  --jp-mirror-editor-keyword-weight: bold;
   --jp-mirror-editor-atom-color: #268bd2;
   --jp-mirror-editor-number-color: #d33682;
   --jp-mirror-editor-def-color: #073642;
@@ -298,7 +300,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-mirror-editor-string-2-color: #2aa198;
   --jp-mirror-editor-meta-color: #d33682;
   --jp-mirror-editor-qualifier-color: #222;
-  --jp-mirror-editor-builtin-color: #859900;
+  --jp-mirror-editor-builtin-color: #073642;
   --jp-mirror-editor-bracket-color: #997;
   --jp-mirror-editor-tag-color: #859900;
   --jp-mirror-editor-attribute-color: #268bd2;

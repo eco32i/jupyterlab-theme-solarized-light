@@ -189,7 +189,7 @@ $solarized-base035: #495664;
   --jp-content-heading-margin-bottom: 0.8em;
   --jp-content-heading-font-weight: 500;
   --jp-content-font-color0: #{$solarized-base02};
-  --jp-content-font-color1: #{$solarized-base01};
+  --jp-content-font-color1: #{$solarized-green};
   --jp-content-font-color2: #{$solarized-base00};
   --jp-content-font-color3: #{$solarized-base1};
   --jp-content-link-color: #{$solarized-blue};
@@ -206,7 +206,7 @@ $solarized-base035: #495664;
   --jp-code-font-size: 13px;
   --jp-code-line-height: 1.3077; /* 17px for 13px base */
   --jp-code-padding: 5px; /* 5px for 13px base, codemirror highlighting needs integer px value */
-  --jp-code-font-family-default: Inconsolata, menlo, consolas, 'DejaVu Sans Mono', monospace;
+  --jp-code-font-family-default: menlo, consolas, 'DejaVu Sans Mono', monospace;
   --jp-code-font-family: var(--jp-code-font-family-default);
 
   /* This gives a magnification of about 125% in presentation mode over normal. */
@@ -299,9 +299,12 @@ $solarized-base035: #495664;
 
   --jp-notebook-padding: 10px;
 
+  --jp-RenderedText-color: #{$solarized-base01};
+
   /* --jp-notebook-select-background is not seen in jupyterlab codebase */
   --jp-notebook-select-background: #{$solarized-base3};
   --jp-notebook-multiselected-color: #{$solarized-base2};
+  
 
   /* The scroll padding is calculated to fill enough space at the bottom of the
   notebook to show one single-line cell (with appropriate padding) at the top
@@ -364,7 +367,8 @@ $solarized-base035: #495664;
   --jp-editor-cursor-color: var(--jp-ui-font-color0);
 
   /* Code mirror specific styles */
-  --jp-mirror-editor-keyword-color: #{$solarized-green};
+  --jp-mirror-editor-keyword-color: #{$solarized-base01};
+  --jp-mirror-editor-keyword-weight: bold;
   --jp-mirror-editor-atom-color: #{$solarized-blue};
   --jp-mirror-editor-number-color: #{$solarized-magenta};
   --jp-mirror-editor-def-color: #{$solarized-base02};
@@ -379,7 +383,7 @@ $solarized-base035: #495664;
   --jp-mirror-editor-string-2-color: #{$solarized-cyan};
   --jp-mirror-editor-meta-color: #{$solarized-magenta};
   --jp-mirror-editor-qualifier-color: #222;
-  --jp-mirror-editor-builtin-color: #{$solarized-green};
+  --jp-mirror-editor-builtin-color: #{$solarized-base02};
   --jp-mirror-editor-bracket-color: #997;
   --jp-mirror-editor-tag-color: #{$solarized-green};
   --jp-mirror-editor-attribute-color: #{$solarized-blue};
