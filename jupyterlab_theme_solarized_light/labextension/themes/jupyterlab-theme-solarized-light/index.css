@@ -367,6 +367,12 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-reject-color-hover: #586e75;
   --jp-reject-color-active: #405d66;
 }
+:root .jp-OutputArea-output pre {
+  color: var(--jp-content-font-color2) !important;
+}
+:root .jp-RenderedHTMLCommon {
+  color: var(--jp-content-font-color2) !important;
+}
 
 /* Set the default typography for monospace elements */
 tt,

@@ -295,6 +295,14 @@ $solarized-base035: #495664;
   --jp-cell-inprompt-font-color: #{$solarized-blue};
   --jp-cell-outprompt-font-color: #{$solarized-orange};
 
+  .jp-OutputArea-output pre {
+    color: var(--jp-content-font-color2) !important;
+  }
+
+  .jp-RenderedHTMLCommon {
+    color: var(--jp-content-font-color2) !important;
+  }
+
   /* Notebook specific styles */
 
   --jp-notebook-padding: 10px;
