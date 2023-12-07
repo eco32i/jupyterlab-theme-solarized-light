@@ -4,7 +4,7 @@ This is my take on Solarized Light theme for Jupyterlab.
 
 ## Screentshot
 
-<img width="960" alt="screentshot" src="https://github.com/eco32i/jupyterlab-theme-solarized-light/solarized_light.png">
+![Screenshot](solarized_light.png)
 
 ## Requirements
 
