@@ -40,6 +40,7 @@ $solarized-base0: #839496;
 $solarized-base1: #93a1a1;
 $solarized-base2: #eee8d5;
 $solarized-base3: #fdf6e3;
+$solarized-base4: #fdf6e2;
 $solarized-yellow: #b58900;
 $solarized-orange: #cb4b16;
 $solarized-red: #dc322f;
@@ -223,13 +224,13 @@ $solarized-base035: #495664;
    * theme these would go from light to dark.
    */
 
-  --jp-layout-color0: #fefcfa;
-  --jp-layout-color1: #fdfcfa;
+  --jp-layout-color0: #{$solarized-base4};
+  --jp-layout-color1: #{$solarized-base3};
 
   /* Note the separator of menu items uses --jp-layout-color2 */
-  --jp-layout-color2: #f7f7f7;
-  --jp-layout-color3: #{$solarized_base015};
-  --jp-layout-color4: #{$solarized-base1};
+  --jp-layout-color2: #{$solarized-base2};
+  --jp-layout-color3: #{$solarized_base1};
+  --jp-layout-color4: #505967;
 
   /* Inverse Layout
    *
@@ -237,15 +238,11 @@ $solarized-base035: #495664;
    * theme these would go from dark to light.
    */
 
-  --jp-inverse-layout-color0: #{$solarized-base03};
-  --jp-inverse-layout-color1: #{$solarized-base02};
-  --jp-inverse-layout-color2: #{color.mix(
-      $solarized-base02,
-      $solarized-base1,
-      50%
-    )};
-  --jp-inverse-layout-color3: #{$solarized-base01};
-  --jp-inverse-layout-color4: #{$solarized-base0};
+  --jp-inverse-layout-color0: #{$solarized-base1};
+  --jp-inverse-layout-color1: #{$solarized-base2};
+  --jp-inverse-layout-color2: #505967;
+  --jp-inverse-layout-color3: #{$solarized-base0};
+  --jp-inverse-layout-color4: #{$solarized-base1};
 
   /* Brand/accent */
 

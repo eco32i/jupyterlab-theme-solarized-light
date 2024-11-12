@@ -177,22 +177,22 @@ all of MD as it is not optimized for dense, information rich UIs.
    * The following are the main layout colors use in JupyterLab. In a light
    * theme these would go from light to dark.
    */
-  --jp-layout-color0: #fefcfa;
-  --jp-layout-color1: #fdfcfa;
+  --jp-layout-color0: #fdf6e2;
+  --jp-layout-color1: #fdf6e3;
   /* Note the separator of menu items uses --jp-layout-color2 */
-  --jp-layout-color2: #f7f7f7;
-  --jp-layout-color3: #abada9;
-  --jp-layout-color4: #93a1a1;
+  --jp-layout-color2: #eee8d5;
+  --jp-layout-color3: #93a1a1;
+  --jp-layout-color4: #505967;
   /* Inverse Layout
    *
    * The following are the inverse layout colors use in JupyterLab. In a light
    * theme these would go from dark to light.
    */
-  --jp-inverse-layout-color0: #002b36;
-  --jp-inverse-layout-color1: #073642;
-  --jp-inverse-layout-color2: #4d6c72;
-  --jp-inverse-layout-color3: #586e75;
-  --jp-inverse-layout-color4: #839496;
+  --jp-inverse-layout-color0: #93a1a1;
+  --jp-inverse-layout-color1: #eee8d5;
+  --jp-inverse-layout-color2: #505967;
+  --jp-inverse-layout-color3: #839496;
+  --jp-inverse-layout-color4: #93a1a1;
   /* Brand/accent */
   --jp-brand-color0: #268bd2;
   --jp-brand-color1: #4e9ed3;
