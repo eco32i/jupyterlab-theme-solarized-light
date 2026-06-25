@@ -1,4 +1,4 @@
-# Making a new release of jupyterlab_theme_solarized_dark
+# Making a new release of jupyterlab_theme_solarized_light
 
 The extension can be published to `PyPI` and `npm` manually or using the [Jupyter Releaser](https://github.com/jupyter-server/jupyter_releaser).
 

@@ -105,7 +105,7 @@
     "outputDir": "jupyterlab_theme_solarized_light/labextension",
     "themePath": "lib/index.css",
     "_build": {
-      "load": "static/remoteEntry.387be711cad3900b2acb.js",
+      "load": "static/remoteEntry.1beed227038a4f77ad71.js",
       "extension": "./extension"
     }
   },

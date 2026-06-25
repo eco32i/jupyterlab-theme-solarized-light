@@ -21,7 +21,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
 
     manager.register({
       name: 'JupyterLab Solarized Light',
-      isLight: false,
+      isLight: true,
       themeScrollbars: true,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)
